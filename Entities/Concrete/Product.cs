@@ -13,7 +13,7 @@ namespace Entities.Concrete
     //entities=bu 3katmanda entitiesi kullanıcak.
     {
         public int ProductId { get; set; }
-        public int CategorId { get; set; }
+        public int CategoryId { get; set; }
         public string ProductName { get; set; }
         public short UnitsInStock { get; set; }
         public decimal UnitPrice { get; set; }
