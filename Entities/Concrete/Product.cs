@@ -12,6 +12,8 @@ namespace Entities.Concrete
     //console=ürünü göstericek. 
     //entities=bu 3katmanda entitiesi kullanıcak.
     {
+        public int productId;
+
         public int ProductId { get; set; }
         public int CategoryId { get; set; }
         public string ProductName { get; set; }
